@@ -13,5 +13,21 @@ function createProductCard(p) {
             "</div>" +
         "</div>";
 
+    let btn = a.querySelector(".btn-add");
+    btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        addToCart(p.id, 1);
+    });
+
     return a;
+}
+
+let toastTimer = null;
+
+function showToast(emg){
+    let el = document.getElementById("toast");
+    if (lel) return;
+
+    el.textContent = eng;
 }
