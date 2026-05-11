@@ -25,9 +25,15 @@ function createProductCard(p) {
 
 let toastTimer = null;
 
-function showToast(emg){
+function showToast(msg) {
     let el = document.getElementById("toast");
-    if (lel) return;
+    if (!el) return;
 
-    el.textContent = eng;
+    el.textContent = msg;
+    el.classList.add("show");
+
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+        el.classList.remove("show");
+    }, 2000);
 }

@@ -444,12 +444,12 @@ footer {
     color: var(--accent);
 }
 
-.toast{
+.toast {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background: #222222;
-    color: #ffffff;
+    background: #222;
+    color: #fff;
     padding: 12px 20px;
     border-radius: var(--radius);
     font-size: 14px;
@@ -460,7 +460,7 @@ footer {
     z-index: 100;
 }
 
-.toast.show{
+.toast.show {
     opacity: 1;
     transform: translateY(0px);
 }
