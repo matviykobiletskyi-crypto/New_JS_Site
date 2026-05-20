@@ -3,7 +3,7 @@ var products = [
         id: 1,
         name: "Apple iPhone 17 Pro Max 256GB (Cosmic Orange)",
         category: "iPhone",
-        price: "66 999 грн",
+        price: 66999,
         emoji: "📱",
         desc: "Опис товару 1"
     },
@@ -11,7 +11,7 @@ var products = [
         id: 2,
         name: "Apple iPhone 17 Pro 256GB (Silver)",
         category: "iPhone",
-        price: "63 999 грн",
+        price: 63999 ,
         emoji: "📱",
         desc: "Опис товару 1"
     },
@@ -19,7 +19,7 @@ var products = [
         id: 3,
         name: "Apple iPhone 17 Pro 256GB (Deep Blue)",
         category: "iPhone",
-        price: "61 999 грн",
+        price: 61999 ,
         emoji: "📱",
         desc: "Опис товару 1"
     },
@@ -27,7 +27,7 @@ var products = [
         id: 4,
         name: "Apple iPhone 17 Air 256GB (Space Black) (e-Sim)",
         category: "iPhone",
-        price: "42 399 грн",
+        price: 42399 ,
         emoji: "📱",
         desc: "Опис товару 1"
     },
@@ -35,7 +35,7 @@ var products = [
         id: 5,
         name: "Apple iPhone 17 256GB (Black)",
         category: "iPhone",
-        price: "41 699 грн",
+        price: 41699,
         emoji: "📱",
         desc: "Опис товару 1"
     },
@@ -50,7 +50,7 @@ var products = [
         id: 6,
         name: "Apple Watch Series 11 GPS, 42mm Rose Gold Aluminum Case with Light Blush Sport Band (S/M) (MEU04)",
         category: "Apple Watch",
-        price: "16 599 грн",
+        price: 16599,
         emoji: "⌚",
         desc: "Опис товару 2"
     },
@@ -58,7 +58,7 @@ var products = [
         id: 7,
         name: "Apple Watch Series 11 GPS, 46mm Jet Black Aluminum Case with Black Sport Band (M/L) (MEUX4)",
         category: "Apple Watch",
-        price: "17 299 грн",
+        price: 17299,
         emoji: "⌚",
         desc: "Опис товару 2"
     },
@@ -66,7 +66,7 @@ var products = [
         id: 8,
         name: "Apple Watch SE 3 GPS, 40mm Starlight Aluminum Case with Starlight Sport Band (S/M) (MEH34)",
         category: "Apple Watch",
-        price: "12 599 грн",
+        price:12599,
         emoji: "⌚",
         desc: "Опис товару 2"
     },
@@ -74,7 +74,7 @@ var products = [
         id: 9,
         name: "Apple Watch Series 11 GPS, 46mm Rose Gold Aluminum Case with Light Blush Sport Band (M/L) (MEV74)",
         category: "Apple Watch",
-        price: "17 499 грн",
+        price: 17499,
         emoji: "⌚",
         desc: "Опис товару 2"
     },
@@ -82,7 +82,7 @@ var products = [
         id: 10,
         name: "Apple Watch Series 10 GPS, 46mm Jet Black Aluminum Case with Black Sport Band (M/L) (MWWQ3)",
         category: "Apple Watch",
-        price: "16 499 грн",
+        price: 16499,
         emoji: "⌚",
         desc: "Опис товару 2"
     },
@@ -96,7 +96,7 @@ var products = [
         id: 11,
         name: "AirPods Pro 2 with MagSafe Case (USB‑C) (MTJV3) (2023)",
         category: "Apple AirPods",
-        price: "9 599 грн",
+        price: 9599,
         emoji: "🎧",
         desc: "Опис товару 3"
     },
@@ -104,7 +104,7 @@ var products = [
         id: 12,
         name: "Навушники Apple AirPods 4 with Active Noise Cancellation (MXP93) (2024)",
         category: "Apple AirPods",
-        price: "7 999 грн",
+        price: 7999,
         emoji: "🎧",
         desc: "Опис товару 3"
     },
@@ -112,7 +112,7 @@ var products = [
         id: 13,
         name: "Навушники Apple AirPods 4 (2024)",
         category: "Apple AirPods",
-        price: "6 699 грн",
+        price: 6699,
         emoji: "🎧",
         desc: "Опис товару 3"
     },
@@ -120,7 +120,7 @@ var products = [
         id: 14,
         name: "Навушники Apple AirPods Pro 3 (MFHP4) (2025)",
         category: "Apple AirPods",
-        price: "10 799 грн",
+        price: 10799,
         emoji: "🎧",
         desc: "Опис товару 3"
     },
@@ -128,7 +128,7 @@ var products = [
         id: 15,
         name: "AirPods Pro 2 with MagSafe Case (USB‑C) (MTJV3) (2023) (Ultra)",
         category: "Apple AirPods",
-        price: "10 399 грн",
+        price: 10399,
         emoji: "🎧",
         desc: "Опис товару 3"
     },
@@ -142,7 +142,7 @@ var products = [
         id: 16,
         name: "Apple iPad Pro 11 2025, 256GB, Space Black, Wi-Fi (M5) (MDWK4)",
         category: "Apple iPad",
-        price: "46 199 грн",
+        price: 46199,
         emoji: "📱",
         desc: "Опис товару 4"
     },
@@ -150,7 +150,7 @@ var products = [
         id: 17,
         name: "Apple iPad Pro 11 2025, 256GB, Silver, Wi-Fi (M5) (MDWL4)",
         category: "Apple iPad",
-        price: "46 799 грн",
+        price: 46799,
         emoji: "📱",
         desc: "Опис товару 4"
     },
@@ -158,7 +158,7 @@ var products = [
         id: 18,
         name: "Apple iPad Pro 13 2025, 256GB, Space Black, Wi-Fi (M5) (MDYJ4)",
         category: "Apple iPad",
-        price: "58 599 грн",
+        price: 58599,
         emoji: "📱",
         desc: "Опис товару 4"
     },
@@ -166,7 +166,7 @@ var products = [
         id: 19,
         name: "Apple iPad 11 128GB, Wi-Fi (Silver) (2025) (MD3Y4)",
         category: "Apple iPad",
-        price: "17 199 грн",
+        price: 17199,
         emoji: "📱",
         desc: "Опис товару 4"
     },
@@ -174,7 +174,7 @@ var products = [
         id: 20,
         name: "Apple iPad Pro 13 2025, 256GB, Silver, Wi-Fi (M5) (MDYK4)",
         category: "Apple iPad",
-        price: "58 599 грн",
+        price: 58599,
         emoji: "📱",
         desc: "Опис товару 4"
     },
@@ -186,7 +186,7 @@ var products = [
         id: 21,
         name: "MacBook Air 13 Retina, Sky Blue, 256GB, 10 CPU / 8 GPU, 16GB RAM with Apple M4 (2025) (MC6T4)",
         category: "Apple Mac",
-        price: "50 599 грн",
+        price: 50599,
         emoji: "💻",
         desc: "Опис товару 5"
     },
@@ -194,7 +194,7 @@ var products = [
         id: 22,
         name: "MacBook Neo 13 Retina, Blush, 256GB, 6 CPU / 5 GPU, 8GB RAM with Apple A18 Pro (2026) (MHFH4)",
         category: "Apple Mac",
-        price: "32 299 грн",
+        price: 32299,
         emoji: "💻",
         desc: "Опис товару 5"
     },
@@ -202,7 +202,7 @@ var products = [
         id: 23,
         name: "MacBook Air 13 Retina, Midnight, 256GB, 10 CPU / 8 GPU, 16GB RAM with Apple M4 (2025) (MW123)",
         category: "Apple Mac",
-        price: "50 599 грн",
+        price: 50599,
         emoji: "💻",
         desc: "Опис товару 5"
     },
@@ -210,7 +210,7 @@ var products = [
         id: 24,
         name: "MacBook Neo 13 Retina, Silver, 256GB, 6 CPU / 5 GPU, 8GB RAM with Apple A18 Pro (2026) (MHFA4)",
         category: "Apple Mac",
-        price: "32 299 грн" ,
+        price: 32299 ,
         emoji: "💻",
         desc: "Опис товару 5"
     },
@@ -218,7 +218,7 @@ var products = [
         id: 25,
         name: "MacBook Air 15 Retina, Midnight, 256GB, 10 CPU / 10 GPU, 16GB RAM with Apple M4 (2025) (MW1L3)",
         category: "Apple Mac",
-        price: "54 999 грн",
+        price: 54999,
         emoji: "💻",
         desc: "Опис товару 5"
     },
